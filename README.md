@@ -14,11 +14,11 @@ There are three recommendation models.
 
 All users get the same recommendation of most popular movie. To determine what is the popularity score of the movie, Weighted Rating score formula from IMDb was used.
 
-2. User-user similarity
+2. User-user Colaborative filtering 
 
 Similarity between users is calculated using cosine similarity. Most popular movies from k most similar users are recommended. 
 
-3. Item-item similarity
+3. Item-item Colaborative filtering
 
 Similarity between items is calculated using cosine  similarity. K most similar movies are recommended.
 
