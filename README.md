@@ -6,7 +6,21 @@ This is my first project learning about recommendation systems. Currently, there
 
 The data is downloaded from the https://grouplens.org/datasets/movielens/1m/
 
-These files contain 1,000,209 anonymous ratings of approximately 3,900 movies made by 6,040 MovieLens users who joined MovieLens in 2000.
+These files contain 1,000,209 anonymous ratings of 3,706 movies made by 6,040 MovieLens users who joined MovieLens in 2000.
+
+There are three recommendation models. 
+
+1. Popularity model
+
+All users get the same recommendation of most popular movie. To determine what is the popularity score of the movie, Weighted Rating score formula from IMDb was used.
+
+2. User-user similarity
+
+Similarity between users is calculated using cosine similarity. Most popular movies from k most similar users are recommended. 
+
+3. Item-item similarity
+
+Similarity between items is calculated using cosine  similarity. K most similar movies are recommended.
 
 Book used as a help for this project is Recommendation Systems with Python by Rounak Banik from Packt.
 
